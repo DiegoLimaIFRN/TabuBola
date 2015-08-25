@@ -1,6 +1,6 @@
 class Player
   def initialize(window)
-    @image = Gosu::Image.new(window, "media/bola.PNG", false)
+    @image = Gosu::Image.new(window, "./bola.PNG", false)
     @x = @y = @vel_x = @vel_y = @angle = 0.0
     @score = 0
   end
