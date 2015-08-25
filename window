@@ -5,7 +5,7 @@ class GameWindow < Gosu::Window
     super 640, 480, false
     self.caption = "TabuBola"
 	
-	@background_image = Gosu::Image.new(self, "media/campo1.PNG", true)
+	@background_image = Gosu::Image.new(self, "./campo1.PNG", true)
 	@player = Player.new(self)
     @player.warp(320, 240)
   end
